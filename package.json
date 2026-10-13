@@ -1,0 +1,27 @@
+{
+  "name": "nuvio-hd-streams",
+  "version": "1.0.0",
+  "description": "High-Definition 1080P & 4K Streaming Plugin for Nuvio with Intelligent Deduplication",
+  "main": "providers/hdmaster.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "nuvio",
+    "streaming",
+    "plugin",
+    "1080p",
+    "4k",
+    "providers"
+  ],
+  "author": "Nuvio Community",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  },
+  "dependencies": {
+    "cheerio-without-node-native": "^0.20.2",
+    "crypto-js": "^4.2.0"
+  }
+}

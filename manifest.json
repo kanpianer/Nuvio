@@ -1,0 +1,114 @@
+{
+  "name": "Nuvio Ultra HD (1080P/4K)",
+  "version": "1.0.0",
+  "description": "聚合官方与社区高可用视频源，严格去除 1080P 以下画质，全自动去重，只提供 1080P、1440P 与 4K 超清播放源。",
+  "author": "Nuvio Community",
+  "scrapers": [
+    {
+      "id": "hdmaster",
+      "name": "🌟 HD Master (全网 1080P/4K 聚合)",
+      "description": "全网顶级源聚合引擎：全自动过滤 1080P 以下视频源，多重深度去重，按清晰度与稳定性最优排序",
+      "version": "1.0.0",
+      "author": "Nuvio Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hdmaster.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv"
+      ],
+      "logo": "https://img.icons8.com/fluency/96/4k.png",
+      "contentLanguage": [
+        "en",
+        "zh",
+        "hi"
+      ]
+    },
+    {
+      "id": "vidrock_hd",
+      "name": "🪨 VidRock HD (1080P HLS)",
+      "description": "极速 HLS 原画直链，严格保证 1080P 1920x1080 高码率分片播放，支持电影与全季剧集",
+      "version": "1.0.0",
+      "author": "Nuvio Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidrock_hd.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://img.icons8.com/fluency/96/film-reel.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "castle_hd",
+      "name": "🏰 Castle HD (1080P 多音轨)",
+      "description": "Castle 高速 CDN 认证流，严格过滤 1080P 高清原声与多音轨",
+      "version": "1.0.0",
+      "author": "Nuvio Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/castle_hd.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://img.icons8.com/fluency/96/castle.png",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "hub4k_hd",
+      "name": "⚡ 4KHDHub (4K & 1080P 直链)",
+      "description": "4KHDHub 优质高速 Cloudflare R2 及 HubCloud 10Gbps 直链，精选 1080P 和 2160P 4K 原盘",
+      "version": "1.0.0",
+      "author": "Nuvio Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hub4k_hd.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "mp4"
+      ],
+      "logo": "https://img.icons8.com/fluency/96/cloud-lighting.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "streamflix_hd",
+      "name": "🎬 StreamFlix HD (1080P S3)",
+      "description": "StreamFlix 直出 S3 高速 1080P MKV/MP4 视频源，自动剔除低码率与标清",
+      "version": "1.0.0",
+      "author": "Nuvio Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/streamflix_hd.js",
+      "enabled": true,
+      "formats": [
+        "mkv"
+      ],
+      "logo": "https://img.icons8.com/fluency/96/clapperboard.png",
+      "contentLanguage": [
+        "en"
+      ]
+    }
+  ]
+}
